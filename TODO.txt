@@ -1,2 +1,0 @@
-- install/set statusline
-- install NERDTree
