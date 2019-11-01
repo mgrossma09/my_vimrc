@@ -76,6 +76,10 @@ set fo-=t   " don't automatically wrap text when typing
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
 
+" toggle between nonumber and number
+nnoremap <Leader>l :set number<CR>
+nnoremap <Leader>L :set nonumber<CR>
+
 " easier formatting of paragraphs
 vmap Q gq
 nmap Q gqap
