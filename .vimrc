@@ -18,6 +18,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'prettier/vim-prettier'
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -73,7 +75,7 @@ set number  " show line numbers
 set tw=79   " width of document (used by gd)
 set nowrap  " don't automatically wrap on load
 set fo-=t   " don't automatically wrap text when typing
-set colorcolumn=80
+set colorcolumn=88
 highlight ColorColumn ctermbg=233
 
 " toggle between nonumber and number
@@ -123,3 +125,5 @@ let g:airline#extensions#tabline#enabled = 1
 
 " set the theme
 let g:airline_theme='papercolor'
+
+let @d = "i##############################################\<Esc>"
